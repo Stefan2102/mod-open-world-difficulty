@@ -1,0 +1,87 @@
+#
+# Open World Difficulty module configuration
+#
+
+[worldserver]
+
+#
+#    OpenWorldDifficulty.Enable
+#        Description: Enables the Open World Difficulty module.
+#        Default:     1 - enabled
+#                     0 - disabled
+#
+
+OpenWorldDifficulty.Enable = 1
+
+#
+#    Multipliers below are applied on top of the core Rate.Creature.* rates.
+#    They affect only creatures on open world maps (not dungeons, raids, BGs, arenas).
+#    Player pets and player-owned guardians are never affected.
+#
+#    A value of 1.0 means no change.
+#    Values below 1.0 reduce the stat.
+#    Values above 1.0 increase the stat.
+#
+#    AttackTimeMultiplier works directly on attack time:
+#    0.9 = 10% faster attacks, 1.1 = 10% slower attacks.
+#
+
+# ------------------------------------------
+# Normal
+# ------------------------------------------
+
+OpenWorldDifficulty.Normal.HealthMultiplier      = 1.5
+OpenWorldDifficulty.Normal.MeleeDamageMultiplier = 1.25
+OpenWorldDifficulty.Normal.SpellDamageMultiplier = 1.25
+OpenWorldDifficulty.Normal.HealingMultiplier     = 1.25
+OpenWorldDifficulty.Normal.ManaMultiplier        = 1.25
+OpenWorldDifficulty.Normal.ArmorMultiplier       = 1.135
+OpenWorldDifficulty.Normal.AttackTimeMultiplier  = 0.9
+
+# ------------------------------------------
+# Elite
+# ------------------------------------------
+
+OpenWorldDifficulty.Elite.HealthMultiplier      = 1.5
+OpenWorldDifficulty.Elite.MeleeDamageMultiplier = 1.25
+OpenWorldDifficulty.Elite.SpellDamageMultiplier = 1.25
+OpenWorldDifficulty.Elite.HealingMultiplier     = 1.25
+OpenWorldDifficulty.Elite.ManaMultiplier        = 1.25
+OpenWorldDifficulty.Elite.ArmorMultiplier       = 1.135
+OpenWorldDifficulty.Elite.AttackTimeMultiplier  = 0.9
+
+# ------------------------------------------
+# Rare
+# ------------------------------------------
+
+OpenWorldDifficulty.Rare.HealthMultiplier      = 1.5
+OpenWorldDifficulty.Rare.MeleeDamageMultiplier = 1.25
+OpenWorldDifficulty.Rare.SpellDamageMultiplier = 1.25
+OpenWorldDifficulty.Rare.HealingMultiplier     = 1.25
+OpenWorldDifficulty.Rare.ManaMultiplier        = 1.25
+OpenWorldDifficulty.Rare.ArmorMultiplier       = 1.135
+OpenWorldDifficulty.Rare.AttackTimeMultiplier  = 0.9
+
+# ------------------------------------------
+# RareElite
+# ------------------------------------------
+
+OpenWorldDifficulty.RareElite.HealthMultiplier      = 1.5
+OpenWorldDifficulty.RareElite.MeleeDamageMultiplier = 1.25
+OpenWorldDifficulty.RareElite.SpellDamageMultiplier = 1.25
+OpenWorldDifficulty.RareElite.HealingMultiplier     = 1.25
+OpenWorldDifficulty.RareElite.ManaMultiplier        = 1.25
+OpenWorldDifficulty.RareElite.ArmorMultiplier       = 1.135
+OpenWorldDifficulty.RareElite.AttackTimeMultiplier  = 0.9
+
+# ------------------------------------------
+# WorldBoss
+# ------------------------------------------
+
+OpenWorldDifficulty.WorldBoss.HealthMultiplier      = 1.5
+OpenWorldDifficulty.WorldBoss.MeleeDamageMultiplier = 1.25
+OpenWorldDifficulty.WorldBoss.SpellDamageMultiplier = 1.25
+OpenWorldDifficulty.WorldBoss.HealingMultiplier     = 1.25
+OpenWorldDifficulty.WorldBoss.ManaMultiplier        = 1.25
+OpenWorldDifficulty.WorldBoss.ArmorMultiplier       = 1.135
+OpenWorldDifficulty.WorldBoss.AttackTimeMultiplier  = 0.9
