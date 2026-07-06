@@ -25,6 +25,7 @@ struct OWDDifficultyMultipliers
     float Health = 1.0f;
     float MeleeDamage = 1.0f;
     float SpellDamage = 1.0f;
+    float PeriodicDamage = 1.0f;
     float Healing = 1.0f;
     float Mana = 1.0f;
     float Armor = 1.0f;

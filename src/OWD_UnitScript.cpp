@@ -12,6 +12,7 @@ public:
     OWD_UnitScript() : UnitScript("OWD_UnitScript", true, {
         UNITHOOK_MODIFY_MELEE_DAMAGE,
         UNITHOOK_MODIFY_SPELL_DAMAGE_TAKEN,
+        UNITHOOK_MODIFY_PERIODIC_DAMAGE_AURAS_TICK,
         UNITHOOK_ON_HEAL
     }) { }
 
@@ -29,6 +30,14 @@ public:
             return;
 
         ApplySpellDamageMultiplier(attacker->ToCreature(), damage);
+    }
+
+    void ModifyPeriodicDamageAurasTick(Unit* /*target*/, Unit* attacker, uint32& damage, SpellInfo const* /*spellInfo*/) override
+    {
+        if (!attacker || !attacker->IsCreature())
+            return;
+
+        ApplyPeriodicDamageMultiplier(attacker->ToCreature(), damage);
     }
 
     void OnHeal(Unit* healer, Unit* /*receiver*/, uint32& gain) override
@@ -64,6 +73,15 @@ private:
             return;
 
         damage = int32(float(damage) * m->SpellDamage);
+    }
+
+    static void ApplyPeriodicDamageMultiplier(Creature* creature, uint32& damage)
+    {
+        OWDDifficultyMultipliers const* m = GetMultipliers(creature);
+        if (!m || m->PeriodicDamage == 1.0f)
+            return;
+
+        damage = uint32(float(damage) * m->PeriodicDamage);
     }
 
     static void ApplyHealingMultiplier(Creature* creature, uint32& gain)

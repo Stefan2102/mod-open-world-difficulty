@@ -30,58 +30,63 @@ OpenWorldDifficulty.Enable = 1
 # Normal
 # ------------------------------------------
 
-OpenWorldDifficulty.Normal.HealthMultiplier      = 1.5
-OpenWorldDifficulty.Normal.MeleeDamageMultiplier = 1.25
-OpenWorldDifficulty.Normal.SpellDamageMultiplier = 1.25
-OpenWorldDifficulty.Normal.HealingMultiplier     = 1.25
-OpenWorldDifficulty.Normal.ManaMultiplier        = 1.25
-OpenWorldDifficulty.Normal.ArmorMultiplier       = 1.135
-OpenWorldDifficulty.Normal.AttackTimeMultiplier  = 0.9
+OpenWorldDifficulty.Normal.HealthMultiplier         = 1.5
+OpenWorldDifficulty.Normal.MeleeDamageMultiplier    = 1.25
+OpenWorldDifficulty.Normal.SpellDamageMultiplier    = 1.25
+OpenWorldDifficulty.Normal.PeriodicDamageMultiplier = 1.25
+OpenWorldDifficulty.Normal.HealingMultiplier        = 1.25
+OpenWorldDifficulty.Normal.ManaMultiplier           = 1.25
+OpenWorldDifficulty.Normal.ArmorMultiplier          = 1.135
+OpenWorldDifficulty.Normal.AttackTimeMultiplier     = 0.9
 
 # ------------------------------------------
 # Elite
 # ------------------------------------------
 
-OpenWorldDifficulty.Elite.HealthMultiplier      = 1.5
-OpenWorldDifficulty.Elite.MeleeDamageMultiplier = 1.25
-OpenWorldDifficulty.Elite.SpellDamageMultiplier = 1.25
-OpenWorldDifficulty.Elite.HealingMultiplier     = 1.25
-OpenWorldDifficulty.Elite.ManaMultiplier        = 1.25
-OpenWorldDifficulty.Elite.ArmorMultiplier       = 1.135
-OpenWorldDifficulty.Elite.AttackTimeMultiplier  = 0.9
+OpenWorldDifficulty.Elite.HealthMultiplier         = 1.5
+OpenWorldDifficulty.Elite.MeleeDamageMultiplier    = 1.25
+OpenWorldDifficulty.Elite.SpellDamageMultiplier    = 1.25
+OpenWorldDifficulty.Elite.PeriodicDamageMultiplier = 1.25
+OpenWorldDifficulty.Elite.HealingMultiplier        = 1.25
+OpenWorldDifficulty.Elite.ManaMultiplier           = 1.25
+OpenWorldDifficulty.Elite.ArmorMultiplier          = 1.135
+OpenWorldDifficulty.Elite.AttackTimeMultiplier     = 0.9
 
 # ------------------------------------------
 # Rare
 # ------------------------------------------
 
-OpenWorldDifficulty.Rare.HealthMultiplier      = 1.5
-OpenWorldDifficulty.Rare.MeleeDamageMultiplier = 1.25
-OpenWorldDifficulty.Rare.SpellDamageMultiplier = 1.25
-OpenWorldDifficulty.Rare.HealingMultiplier     = 1.25
-OpenWorldDifficulty.Rare.ManaMultiplier        = 1.25
-OpenWorldDifficulty.Rare.ArmorMultiplier       = 1.135
-OpenWorldDifficulty.Rare.AttackTimeMultiplier  = 0.9
+OpenWorldDifficulty.Rare.HealthMultiplier         = 1.5
+OpenWorldDifficulty.Rare.MeleeDamageMultiplier    = 1.25
+OpenWorldDifficulty.Rare.SpellDamageMultiplier    = 1.25
+OpenWorldDifficulty.Rare.PeriodicDamageMultiplier = 1.25
+OpenWorldDifficulty.Rare.HealingMultiplier        = 1.25
+OpenWorldDifficulty.Rare.ManaMultiplier           = 1.25
+OpenWorldDifficulty.Rare.ArmorMultiplier          = 1.135
+OpenWorldDifficulty.Rare.AttackTimeMultiplier     = 0.9
 
 # ------------------------------------------
 # RareElite
 # ------------------------------------------
 
-OpenWorldDifficulty.RareElite.HealthMultiplier      = 1.5
-OpenWorldDifficulty.RareElite.MeleeDamageMultiplier = 1.25
-OpenWorldDifficulty.RareElite.SpellDamageMultiplier = 1.25
-OpenWorldDifficulty.RareElite.HealingMultiplier     = 1.25
-OpenWorldDifficulty.RareElite.ManaMultiplier        = 1.25
-OpenWorldDifficulty.RareElite.ArmorMultiplier       = 1.135
-OpenWorldDifficulty.RareElite.AttackTimeMultiplier  = 0.9
+OpenWorldDifficulty.RareElite.HealthMultiplier         = 1.5
+OpenWorldDifficulty.RareElite.MeleeDamageMultiplier    = 1.25
+OpenWorldDifficulty.RareElite.SpellDamageMultiplier    = 1.25
+OpenWorldDifficulty.RareElite.PeriodicDamageMultiplier = 1.25
+OpenWorldDifficulty.RareElite.HealingMultiplier        = 1.25
+OpenWorldDifficulty.RareElite.ManaMultiplier           = 1.25
+OpenWorldDifficulty.RareElite.ArmorMultiplier          = 1.135
+OpenWorldDifficulty.RareElite.AttackTimeMultiplier     = 0.9
 
 # ------------------------------------------
 # WorldBoss
 # ------------------------------------------
 
-OpenWorldDifficulty.WorldBoss.HealthMultiplier      = 1.5
-OpenWorldDifficulty.WorldBoss.MeleeDamageMultiplier = 1.25
-OpenWorldDifficulty.WorldBoss.SpellDamageMultiplier = 1.25
-OpenWorldDifficulty.WorldBoss.HealingMultiplier     = 1.25
-OpenWorldDifficulty.WorldBoss.ManaMultiplier        = 1.25
-OpenWorldDifficulty.WorldBoss.ArmorMultiplier       = 1.135
-OpenWorldDifficulty.WorldBoss.AttackTimeMultiplier  = 0.9
+OpenWorldDifficulty.WorldBoss.HealthMultiplier         = 1.5
+OpenWorldDifficulty.WorldBoss.MeleeDamageMultiplier    = 1.25
+OpenWorldDifficulty.WorldBoss.SpellDamageMultiplier    = 1.25
+OpenWorldDifficulty.WorldBoss.PeriodicDamageMultiplier = 1.25
+OpenWorldDifficulty.WorldBoss.HealingMultiplier        = 1.25
+OpenWorldDifficulty.WorldBoss.ManaMultiplier           = 1.25
+OpenWorldDifficulty.WorldBoss.ArmorMultiplier          = 1.135
+OpenWorldDifficulty.WorldBoss.AttackTimeMultiplier     = 0.9

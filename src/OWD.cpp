@@ -121,11 +121,12 @@ void OpenWorldDifficulty::LoadMultipliersForRank(OWD_Rank rank, std::string cons
     OWDDifficultyMultipliers& m = _multipliers[static_cast<size_t>(rank)];
     std::string const prefix = "OpenWorldDifficulty." + name + ".";
 
-    m.Health      = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "HealthMultiplier", 1.0f));
-    m.MeleeDamage = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "MeleeDamageMultiplier", 1.0f));
-    m.SpellDamage = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "SpellDamageMultiplier", 1.0f));
-    m.Healing     = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "HealingMultiplier", 1.0f));
-    m.Mana        = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "ManaMultiplier", 1.0f));
-    m.Armor       = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "ArmorMultiplier", 1.0f));
-    m.AttackTime  = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "AttackTimeMultiplier", 1.0f));
+    m.Health         = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "HealthMultiplier", 1.0f));
+    m.MeleeDamage    = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "MeleeDamageMultiplier", 1.0f));
+    m.SpellDamage    = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "SpellDamageMultiplier", 1.0f));
+    m.PeriodicDamage = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "PeriodicDamageMultiplier", 1.0f));
+    m.Healing        = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "HealingMultiplier", 1.0f));
+    m.Mana           = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "ManaMultiplier", 1.0f));
+    m.Armor          = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "ArmorMultiplier", 1.0f));
+    m.AttackTime     = ClampMultiplier(sConfigMgr->GetOption<float>(prefix + "AttackTimeMultiplier", 1.0f));
 }
